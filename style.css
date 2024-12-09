@@ -1,0 +1,1069 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 100vh;
+    background-image: url("fashion-1766344_1280.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 40px;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+    padding-left: 16px;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 8px;
+    color: black;
+}
+
+h2 {
+    font-size: 36px;
+    color: black;
+    transform: translateX(-150%);
+}
+
+.shop-icons {
+    font-size: 30px;
+}
+
+.shop-icons i {
+    padding-left: 8px;
+    cursor: pointer;
+}
+
+.headline {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-left: 90px;
+}
+
+.headline h1 {
+    font-size: 110px;
+    font-weight: 500;
+}
+
+.headline p {
+    margin: 20px 0;
+    font-size: 21px;
+    max-width: 700px;
+}
+
+.headline button {
+    font-size: 18px;
+    padding: 8px 20px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    background: black;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.watch-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    margin-top: 28px;
+}
+
+.watch-container img {
+    max-width: 280px;
+    max-height: 280px;
+}
+
+.watch-1, .watch-2, .watch-3, .watch-4 {
+    text-align: center;
+}
+
+.watch-1 h3, .watch-2 h3, .watch-3 h3, .watch-4 h3 {
+    font-size: 20px;
+    letter-spacing: 1.0px;
+    color: black;
+    font-weight: 500;
+}
+
+.watch-1 h6, .watch-2 h6, .watch-3 h6, .watch-4 h6 {
+    color: silver;
+    font-size: 16px;
+    margin-top: 2px;
+    font-style: italic;
+}
+
+.watch-1 button, .watch-2 button, .watch-3 button, .watch-4 button {
+    margin-top: 20px;
+    background: black;
+    color: white;
+    letter-spacing: .5px;
+    padding: 10px 28px;
+    cursor: pointer;
+}
+
+.eclipse-img, .phantom-img {
+    object-fit: contain;
+    height: 100%;
+    width: 70%;
+}
+
+.titan-img {
+    object-fit: contain;
+    height: 100%;
+    width: 57%;
+}
+
+.silver-img {
+    object-fit: contain;
+    height: 100%;
+    width: 60%;
+}
+
+.sunglasses-container {
+    height: 100vh;
+    background-image: url("Untitled\ design\ \(1\).png");
+    background-position: center;
+    background-size: cover;
+    margin-top: 40px;
+}
+
+.shop-banner {
+    color: aliceblue;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    letter-spacing: 1.5px;
+    padding: 30px;
+}
+
+.sunglasses-button {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.sunglasses-button button {
+    background: black;
+    color: aliceblue;
+    padding: 12px 24px;
+    border: 1px solid white;
+    letter-spacing: .5px;
+    cursor: pointer;
+}
+
+.watch-feat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.watch-feat h1 {
+    font-size: 67px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    margin-bottom: 16px;
+}
+
+.watch-feat p {
+    font-size: 20px;
+    color: gray;
+}
+
+.feature-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 40px;
+    max-height: 100%;
+    max-width: 100%;
+    margin-top: 44px;
+    padding: 0 44px;
+}
+
+.left-img-container {
+    grid-row: span 2;
+}
+
+.top-img-container, .bottom-img-container {
+    grid-column: 2;
+}
+
+.left-img-container img, .top-img-container img, .bottom-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info-container {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-160px);
+}
+
+.info-container h1 {
+    color: #fff;
+    font-size: 42px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+
+.info-container button {
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 32px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+
+.shop-banner-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    background: black;
+}
+
+.shop-banner-2 p {
+    color: #fff;
+    font-size: 40px;
+    letter-spacing: 4px;
+    padding: 18px 0;
+}
+
+.trend-headliner {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.trend-headliner h4 {
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.trend-headliner h1 {
+    margin: 16px;
+    font-size: 64px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
+
+.trend-headliner p {
+    font-size: 20px;
+}
+
+.trend-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    margin-top: 28px;
+}
+
+.trend-container img {
+    max-width: 100%;
+    max-height: 400px;
+}
+
+.bracelet-img {
+    object-fit: contain;
+    width: 67%;
+    height: 100%;
+}
+
+.watchct-2 {
+    position: relative;
+    display: inline-block;
+}
+
+.watchct-3 {
+    position: relative;
+    display: inline-block;
+}
+
+.sale-sign {
+    position: absolute;
+    top: 80px;
+    left: 60px;
+    background: black;
+    color: #fff;
+    padding: 8px 12px;
+}
+
+.third-img {
+    object-fit: contain;
+    width: 50%;
+    height: 100%;
+}
+
+.fourth-img {
+    object-fit: contain;
+    height: 100%;
+    width: 70%;
+}
+
+.watchct-1, .watchct-2, .watchct-3, .watchct-4 {
+    text-align: center;
+}
+
+.info-trend h3 {
+    font-size: 20px;
+    letter-spacing: 1.0px;
+    color: black;
+    font-weight: 500;
+}
+
+.info-trend h6 {
+    color: silver;
+    font-size: 16px;
+    margin-top: 2px;
+    font-style: italic;
+}
+
+.info-trend button {
+    margin-top: 20px;
+    color: black;
+    background: transparent;
+    padding: 12px 80px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    border: 1.2px solid black;
+    cursor: pointer;
+}
+
+.materials-container {
+    margin-top: 50px;
+    height: 50vh;
+    width: 100%;
+    background-image: url("materials\ banner.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: inline-block;
+}
+
+.materials-info {
+    z-index: 1;
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    background: white;
+    padding: 33px 40px;
+    max-width: 440px;
+}
+
+.materials-info h1 {
+    font-size: 64px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
+
+
+.materials-info p {
+    margin: 16px 0;
+    font-size: 20px;
+    max-width: 500px;
+}
+
+.materials-info button {
+    margin-top: 14px;
+    background: transparent;
+    color: black;
+    padding: 10px 28px;
+    border: 1px solid black;
+    letter-spacing: .5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.sunglass-feat-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sunglass-feat-info h3 {
+    font-size: 20px;
+    letter-spacing: .5px;
+    color: black;
+}
+
+.sunglass-feat-info h1 {
+    margin-top: 20px;
+    font-size: 60px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.sunglass-feat-info p {
+    font-size: 20px;
+    margin: 20px 0 36px 0;
+    max-width: 550px;
+}
+
+.sunglass-feat-info a {
+    font-size: 18px;
+    color: rgb(226, 156, 24);
+}
+
+.sunglass-img-info {
+    height: 840px;
+    width: 670px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 0px 20px;
+}
+
+
+.sunny-feat-img {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.sunglass-info-container {
+    transform: translateY(-300px);
+}
+
+.sunglass-info-container h6 {
+    font-size: 14px;
+}
+
+.sunglass-info-container h4 {
+    margin-top: 14px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.sunglasses-button-ft {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0;
+}
+
+.sunglasses-button-ft button {
+    padding: 10px;
+    margin: 0 0 12px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.white-bt-sun {
+    background: transparent;
+    border: 1px solid black;
+}
+
+.black-bt-sun {
+    background-color: black;
+    color: #fff;
+    border: none;
+}
+
+.newsletter-container {
+    height: 50vh;
+    background-image: linear-gradient(rgba(0,0,0,0.20),rgba(0,0,0,0.20)), url("newsletter\ banner.png");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.newsletter-info h1 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 85px;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+}
+
+.newsletter-info p {
+    color: #fff;
+    font-size: 20px;
+    width: 600px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-box  {
+    width: 100%;
+    height: 100%;
+    background: white;
+    outline: none;
+    color: black;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+input {
+    padding: 14px 400px 14px 10px;
+    border: none;
+}
+
+
+
+.form-container button {
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    letter-spacing: 1.5px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.input-box {
+    position: relative;
+}
+
+.placeholder {
+    position: absolute;
+    top: 15px;
+    bottom: 2px;
+    left: 6px;
+    margin: auto;
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.placeholder span {
+    color: silver;
+    font-size: 14px;
+}
+
+.signup-banner {
+    background: black;
+    height: 100px;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.signup-banner p {
+    font-size: 60px;
+    letter-spacing: 5px;
+}
+
+.wt-comp-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.info-comp-ct h3 {
+    font-size: 20px;
+    letter-spacing: .5px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.info-comp-ct h1 {
+    font-size: 60px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.info-comp-ct p {
+    font-size: 20px;
+    margin-bottom: 36px;
+    max-width: 400px;
+}
+
+.info-comp-ct button {
+    background: transparent;
+    padding: 10px 20px;
+    border: 1px solid black;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.side-wt-comp-container {
+    border: 1px solid black;
+    padding: 20px 40px;
+}
+
+.img-ct-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.img-comp-container {
+    text-align: center;
+}
+
+.img-comp-container img {
+    margin: 20px 0 30px 0;
+    height: auto;
+}
+
+.smartsync-cont {
+    padding-top: 16px;
+}
+
+.img-comp-container h4 {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.img-comp-container p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.img-comp-container button {
+    margin-top: 30px;
+    background: black;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.ft-info-ct {
+    margin-top: 50px;
+}
+
+.ft-info-ct table {
+    width: 700px;
+    height: 100px;
+    border-collapse: collapse;
+}
+
+.ft-info-ct table td {
+    border-top: 1px solid black;
+    padding: 12px 0;
+}
+
+.blog-hd-ct {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 140px;
+}
+
+.blog-hd-ct h4 {
+    font-weight: 400;
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+
+.blog-hd-ct h1 {
+    font-weight: 500;
+    font-size: 70px;
+}
+
+.blog-content-ct {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    margin: 28px 0 0 80px;
+}
+
+.blog-content-box {
+    border: 1px solid black;
+    width: 500px;
+    padding: 20px 20px;
+    height: 545px;
+}
+
+.blog-content-box img {
+    width: 460px;
+    max-height: 280px;
+}
+
+.blog-content-box h6 {
+    margin-top: 18px;
+    color: rgb(250, 192, 84);
+    font-size: 12px;
+}
+
+.blog-content-box span {
+    color: black;
+}
+
+.blog-content-box p {
+    margin-top: 10px;
+    font-size: 32px;
+    max-width: 380px;
+}
+
+.blog-content-box button {
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 10px 20px;
+    background: #fff;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.blog-bt-ct {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 14px;
+}
+
+.blog-btn {
+    background: black;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px 24px;
+    cursor: pointer;
+    letter-spacing: .5px;
+    border: none;
+}
+
+.about-us-ct {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.25)), url("about\ us\ img.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-top: 300px;
+}
+
+.about-us-ban {
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 36px 0 36px;
+    transform: translateY(-210px);
+}
+
+.about-us-ban img {
+    width: 115px;
+    height: 95px;
+    margin: 0 40px;
+}
+
+.about-us-ban h4 {
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.banner-txt-about {
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.banner-txt-about h4 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: .5px;
+}
+
+.banner-txt-about h1 {
+    margin-top: 12px;
+    font-size: 70px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.banner-txt-about p {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+    max-width: 730px;
+}
+
+.banner-txt-about button {
+    margin-top: 36px;
+    font-size: 18px;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    letter-spacing: .5px;
+}
+
+.policy-ft-ct {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px;
+    margin-top: 28px;
+}
+
+.policy-ft-bx {
+    text-align: center;
+}
+
+.policy-ft-bx i {
+    font-size: 25px;
+}
+
+.policy-ft-bx h3 {
+    margin: 14px 0 16px 0;
+    font-size: 20px;
+}
+
+.policy-ft-bx p {
+    font-size: 17px;
+}
+
+.testim-banner {
+    background: rgba(0, 0, 0, 0.822);
+    margin-top: 50px;
+    color: #fff;
+}
+
+.testim-banner {
+    width: 100%;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 40px;
+}
+
+.testi-hd {
+    text-align: center;
+}
+
+.testi-hd h4 {
+    margin-top: 50px;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+}
+
+.testi-hd h1 {
+    font-size: 60px;
+    font-weight: 500;
+    margin-top: 18px;
+}
+
+.testi-hd p {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.review-ct {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.review-img {
+    border: 1.5px solid #fff;
+}
+
+.review-cont {
+    margin: 40px 0 0 30px;
+}
+
+.review-cont i {
+    color: goldenrod;
+    font-size: 20px;
+}
+
+.review-cont p {
+    margin: 16px 0 18px 0;
+    font-size: 18px;
+    max-width: 1300px;
+}
+
+.review-cont h6 {
+    color: silver;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.review-ct img {
+    width: 200px;
+    height: 220px;
+    object-fit: cover;
+}
+
+.footer-ct {
+    background: black;
+}
+
+.footer-cont {
+    width: 100%;
+    height: 350px;
+}
+
+.footer-top-ct {
+    width: 100%;
+    display: flex;
+    padding: 4px;
+}
+
+.footer-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 40px;
+    margin-left: 20px;
+}
+
+.footer-cont h1 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    margin-bottom: 22px;
+}
+
+.footer-cont a {
+    color: rgb(175, 133, 27);
+    font-size: 17px;
+    padding: 5px 0;
+}
+
+.footer-cont p {
+    color: #fff;
+    font-size: 17px;
+    max-width: 300px;
+}
+
+
+.footer-cont button {
+    background: transparent;
+    color: rgb(175, 133, 27);
+    padding: 10px 20px;
+    border: 1px solid rgb(175, 133, 27);
+    margin-top: 32px;
+    cursor: pointer;
+}
+
+.form-footer-container {
+    margin-top: 40px;
+}
+
+.form-footer-container input {
+    padding: 16px 70px;
+    margin: 10px 0;
+}
+
+.input-box-ft {
+    position: relative;
+    padding-bottom: 12px;
+}
+
+.input-box-ft label {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 45%;
+    left: 10px;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+}
+
+.input-box-ft span {
+    color: silver;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.mission-ct {
+    margin-top: 30px;
+}
+
+.newsletter-ct {
+    margin-top: 74px;
+}
+
+.sub-btn {
+    transform: translateY(-16px);
+}
+
+.copyright-ct {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 36px;
+}
+
+
+.copyright-wt p {
+    color: #fff;
+    margin-bottom: 4px;
+}
+
+.social-ach i {
+    color: #fff;
+    font-size: 20px;
+    margin: 0 16px;
+    cursor: pointer;
+}
+
+.border-div:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 96%;
+    padding-top: 20px;
+    border-top: 1px solid goldenrod;
+}
+
+.copyright-wt span {
+    color: goldenrod;
+}
